@@ -1,0 +1,16 @@
+[
+  {
+    "id": "arch1",
+    "question": "I'm building a Go microservice architecture that needs asynchronous messaging. Compare the best AWS, Azure, and GCP options.",
+    "required_providers": ["AWS", "Azure", "GCP"],
+    "expected_services": ["SQS", "Service Bus", "Pub/Sub"],
+    "notes": "Answer should distinguish facts, comparisons, and recommendations."
+  },
+  {
+    "id": "arch2",
+    "question": "What is the GCP equivalent of AWS ECS Fargate style serverless containers, and how does it relate to GKE?",
+    "required_providers": ["AWS", "GCP"],
+    "expected_services": ["Cloud Run", "GKE"],
+    "notes": "May need corpus expansion beyond seed docs."
+  }
+]

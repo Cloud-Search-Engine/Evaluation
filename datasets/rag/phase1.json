@@ -1,0 +1,16 @@
+[
+  {
+    "id": "rag1",
+    "question": "How does Amazon SQS handle messages that are not deleted by a consumer?",
+    "must_cite_providers": ["AWS"],
+    "expected_concepts": ["visibility timeout", "receive", "become visible"],
+    "forbidden_claims": ["SQS uses acknowledgements like Kafka consumer offsets"]
+  },
+  {
+    "id": "rag2",
+    "question": "Compare AWS SQS, Azure Service Bus, and GCP Pub/Sub for asynchronous messaging.",
+    "must_cite_providers": ["AWS", "Azure", "GCP"],
+    "expected_concepts": ["queue", "Service Bus", "Pub/Sub"],
+    "forbidden_claims": ["they are identical one-to-one equivalents"]
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "id": "q1",
+    "query": "AWS SQS visibility timeout",
+    "relevant_document_ids": ["aws-sqs-overview"],
+    "relevant_concepts": ["visibility timeout", "message becomes visible again"]
+  },
+  {
+    "id": "q2",
+    "query": "What is the Azure equivalent of Amazon SQS?",
+    "relevant_document_ids": ["azure-service-bus-overview", "aws-sqs-overview"],
+    "relevant_concepts": ["Service Bus", "queues"]
+  },
+  {
+    "id": "q3",
+    "query": "GCP Pub/Sub vs AWS SQS",
+    "relevant_document_ids": ["gcp-pubsub-overview", "aws-sqs-overview"],
+    "relevant_concepts": ["Pub/Sub", "SQS"]
+  },
+  {
+    "id": "q4",
+    "query": "managed Kubernetes on AWS",
+    "relevant_document_ids": ["aws-eks-overview"],
+    "relevant_concepts": ["EKS", "control plane"]
+  },
+  {
+    "id": "q5",
+    "query": "difference between EKS AKS GKE",
+    "relevant_document_ids": ["aws-eks-overview", "azure-aks-overview", "gcp-gke-overview"],
+    "relevant_concepts": ["EKS", "AKS", "GKE"]
+  },
+  {
+    "id": "q6",
+    "query": "object storage blob bucket",
+    "relevant_document_ids": ["aws-s3-overview", "azure-blob-storage-overview"],
+    "relevant_concepts": ["S3", "Blob Storage"]
+  },
+  {
+    "id": "q7",
+    "query": "Azure Blob Storage",
+    "relevant_document_ids": ["azure-blob-storage-overview"],
+    "relevant_concepts": ["containers", "blobs"]
+  },
+  {
+    "id": "q8",
+    "query": "Google Kubernetes Engine node pools",
+    "relevant_document_ids": ["gcp-gke-overview"],
+    "relevant_concepts": ["GKE", "node pools"]
+  }
+]
